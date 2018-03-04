@@ -1,0 +1,101 @@
+.fon{
+	background: linear-gradient(to top, #FFCC00, #ffffff);
+}
+.fon_locate{
+	background: linear-gradient(to top, green, #ffffff);
+}
+header{
+	border: 2px;
+	background: url(image/panorama.jpg) top right;
+	background-size: cover;
+	width: 100%;
+	height: 276px;
+	
+}
+header a{
+	font-size: 4em;
+	color: #FFCC00;
+	text-decoration: none;
+	padding-top: 20px;
+}
+ul{
+	list-style: none;
+	margin-left: 50px;
+	margin-top: -55px;
+	padding: 0;
+}
+.menu>li{
+	float: left;
+	font-size: 1.5em;
+	background: none;
+	color: white;
+	position: relative;
+	padding: 5px 5px 0;
+	margin: 0 50px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+.menu>li:hover:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: -5px;
+	left: 0;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 2px -2px 5px gray, -2px 0 5px gray;
+}
+.menu>li:hover:after{
+	content: "";
+	position: absolute;
+	top: 100%;
+	right: 0;
+	bottom: 0;
+	height: 7px;
+	background: none;
+	left: 0;
+	z-index: 2;
+}
+.menu>li:hover>a{
+	color: #FFCC00;
+	text-decoration: none;
+}
+.menu>li>ul{
+	opacity: 0.90;
+	background: #FFCC00;
+	display: none;
+	position: absolute;
+	margin: 5px 0 0 -5px;
+}
+.menu>li:hover>ul{
+	display: block;
+	box-shadow: 2px -2px 5px gray, -2px 0 5px gray, 0 2px 5px gray;
+}
+.menu>li>ul>li{
+	margin: 2px 0;
+	padding: 0 5px;
+	min-width: 150px;
+}
+.menu>li>ul>li>a{
+	display: block;
+	width: 100%;
+	color: #000;
+	text-decoration: none;
+}
+.menu>li>ul>li>a:hover{
+	background: green;
+	color: #fff;
+}
+.flag{
+	padding: 10px;
+}
+h2{
+	font-size: 1.5em;
+	padding: 90px;
+	padding-bottom: 0px;
+	color: #000;
+}
+p{
+	font-size: 1.2em;
+	color: #000;
+	text-align: center;
+}
