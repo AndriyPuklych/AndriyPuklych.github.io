@@ -1,5 +1,5 @@
 .galery{
-	padding: 10%;
+	padding: 5%;
 }
 .galery img{
 	margin: 5px;
@@ -7,4 +7,11 @@
 }
 a.photo:hover img{
 	border: 3px solid white;
+}
+h3{
+	font-size: 2em;
+	color: green;
+	font-family: 'Bad Script', cursive;
+	line-height: 40%;
+	padding-left: 20%;
 }

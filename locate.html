@@ -8,7 +8,7 @@
 		<header align="center">
 		<a href="index.html">САДИБА "Білий Гриб"</a><a href=""><img class=flag src="image/uk_flag1.gif" align="right"></a><a href=""><img class=flag src="image/ru_flag1.gif" align="right"></a>
 	</header>	
-	<body class="fon_locate">
+	<body class="fon">
 	<div>
 		<ul class="menu">
 			<li><a>Проживання</a>
@@ -42,5 +42,25 @@
 	<div>
 		<p>Україна, Чернівецька область, Сторожинецький район, село Банилів-Підгірний, вулиця Мічуріна 8.</p>
 	</div>
+
+	 <h3>Знайди нас на Google карті</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 48.074045, lng: 25.471694};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCudU2BBH4ki_a_-EaFoEwJ_Quj000SmHY&callback=initMap">
+    </script>
+
 	</body>
 </html>

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
 .fon{
-	background: linear-gradient(to top, #FFCC00, #ffffff);
+	background: linear-gradient(to top, #FFCC00, #009900);
 }
 .fon_locate{
 	background: linear-gradient(to top, green, #ffffff);
@@ -13,10 +16,12 @@ header{
 	
 }
 header a{
-	font-size: 4em;
+	font-size: 5em;
+	font-family: 'Ruslan Display', cursive;
 	color: #FFCC00;
 	text-decoration: none;
-	padding-top: 20px;
+	padding-top: 50px;
+	text-shadow: 2px 2px 8px  green;
 }
 ul{
 	list-style: none;
@@ -97,5 +102,16 @@ h2{
 p{
 	font-size: 1.2em;
 	color: #000;
-	text-align: center;
+	padding-left: 10px;
+}
+h3{
+	font-size: 2em;
+	color: green;
+	font-family: 'Bad Script', cursive;
+	line-height: 40%;
+	padding-left: 20%;
+}
+#map {
+    height: 400px;
+    width: 100%;
 }
