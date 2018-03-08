@@ -3,7 +3,7 @@
 
 .fon{
 	background: url(image/6f953e0e473eaa923b12795885da20021.png), 
-	url(image/gradient.gif);
+	url(image/gradient.png);
 	/*linear-gradient(to top, #FFCC00, #009900);*/
 	background-attachment: fixed;
 	background-position: 100% 100%;
@@ -110,6 +110,20 @@ p{
 	color: #000;
 	padding-left: 13%;
 }
+		/*start galery*/
+
+.galery{
+	padding: 5%;
+}
+.galery img{
+	margin: 5px;
+	border: 3px solid green;
+}
+a.photo:hover img{
+	border: 3px solid white;
+}
+		/*finish galery*/
+
 h3{
 	font-size: 2em;
 	color: green;
