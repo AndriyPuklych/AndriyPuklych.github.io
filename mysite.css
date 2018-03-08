@@ -3,18 +3,12 @@
 
 .fon{
 	background: url(image/6f953e0e473eaa923b12795885da20021.png), 
-	linear-gradient(to top, #FFCC00, #009900);
+	url(image/gradient.gif);
+	/*linear-gradient(to top, #FFCC00, #009900);*/
 	background-attachment: fixed;
 	background-position: 100% 100%;
-
-
 }
-.fon_2{
-	
-}
-
 header{
-
 	background: url(image/panorama.jpg) top right;
 	background-size: cover;
 	border: 2px;
@@ -31,8 +25,8 @@ header a{
 	text-decoration: none;
 	padding-top: 50px;
 	text-shadow: 2px 2px 8px  green;
-
 }
+		/*start vertical menu*/
 ul{
 	list-style: none;
 	margin-left: 50px;
@@ -99,6 +93,9 @@ ul{
 	background: green;
 	color: #fff;
 }
+		/*finish vertical menu*/
+
+
 .flag{
 	padding: 10px;
 }
@@ -111,7 +108,7 @@ h2{
 p{
 	font-size: 1.2em;
 	color: #000;
-	padding-left: 10px;
+	padding-left: 13%;
 }
 h3{
 	font-size: 2em;
@@ -124,11 +121,16 @@ h3{
     height: 400px;
     width: 100%;
 }
+ol{
+	margin-left: 10%;
+}
 ol>li{
 	list-style: none;
-	font-size: 1.2em;
+	font-size: 1.3em;
+	padding-top: 20px;
 }
 .menu_conditions{
+	font-size: 1.1em;
 	list-style: circle;
 	margin-top: 5px;
 	margin-left: 100px;
