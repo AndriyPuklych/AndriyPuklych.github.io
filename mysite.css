@@ -169,12 +169,12 @@ caption{
 		/*start horses_walking*/
 
 .horses_walking{
-	height: 580px;
-	width: 900px;
-	margin: 50px auto;
-	overflow: hidden;
+	height: 380px;
+	width: 700px;
+	margin-top: 100px;
 	position: relative;
 	float: right;
+	box-shadow: 1px 6px 12px black;
 }
 .horses_walking ul{
 	list-style: none; position: relative;
@@ -230,5 +230,7 @@ caption{
 }
 .horses_walking ul li img{
 	display: block;
+	margin-left: -50px;
+	margin-top: 55px;
 }
 		/*end horses_walking*/
